@@ -2,17 +2,17 @@
 var all_rules = new RuleSets();
 var wr = chrome.webRequest;
 
-/*
+
 for (var v in localStorage) {
   log(DBUG, "localStorage["+v+"]: "+localStorage[v]);
 }
 
-var rs = all_rules.applicableRulesets("www.google.com");
+var rs = all_rules.rules;
 for (r in rs) {
   log(DBUG, rs[r].name +": "+ rs[r].active);
   log(DBUG, rs[r].name +": "+ rs[r].default_state);
 }
-*/
+
 
 function displayPageAction(details) {
   // Right now, the call to chrome.tabs.get creates

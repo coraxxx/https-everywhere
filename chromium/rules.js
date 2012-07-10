@@ -68,6 +68,7 @@ RuleSet.prototype = {
 
 function RuleSets() {
   // Load rules into structure
+  this.rules = [];
   this.targets = {};
 
   for(var i = 0; i < rule_list.length; i++) {
@@ -153,6 +154,8 @@ RuleSets.prototype = {
        }
        this.targets[host].push(rule_set);
     }
+
+    this.rules.push(rule_set);
   },
   
   applicableRulesets: function(host) {

@@ -17,6 +17,7 @@
         "default_popup": "popup.html", 
         "default_title": "HTTPS Everywhere"
     }, 
+    "options_page": "options_rules.html",
     "permissions": [
         "webRequest", 
         "webRequestBlocking", 

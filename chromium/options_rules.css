@@ -1,0 +1,19 @@
+body {
+  margin-left: 1em;
+  margin-top: 0;
+  margin-right: 1em;
+  margin-bottom: 0;
+  max-width: 738px;
+}
+
+div.group {
+  margin: 16px 0 0 0;
+}
+
+.rule span.note {
+  color: #979CA0;
+}
+
+.user-set span {
+  font-weight: bold;
+}
